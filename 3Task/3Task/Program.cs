@@ -27,9 +27,19 @@ namespace _3Task
 
                     Console.WriteLine("\n You enter: \n\t    x: {0} \n\t    y: {1}", x, y);
 
-                    z= x * y;
+                    z = x * y;
 
-                    Console.WriteLine("\n x * y = " + z);
+                    Console.WriteLine("\n x * y = " + z + "\n");
+
+                    if (z <= 0) Console.WriteLine(" Sorry, no asterisks!");
+                        else
+                        {
+                            for (int asterisks = 1; asterisks <= z; asterisks++)
+                            {
+                                Console.WriteLine(" " + asterisks + ". *");
+                            }
+                        }
+
 
                 }
                 catch (Exception error)
