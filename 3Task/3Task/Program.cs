@@ -25,12 +25,7 @@ namespace _3Task
                     Console.Write(" Enter please second number: ");
                     y = Int32.Parse(Console.ReadLine());
 
-                    Console.WriteLine("\n You enter: \n\t    x: {0} \n\t    y: {1}", x, y);
-
-                    w = x + y;
-
-                    Console.WriteLine("\n x + y = " + w);
-
+                    Console.WriteLine("\n x: and y: {1} sum {2}", x, y, x+y);
                 }
                 catch (Exception error)
                 {
